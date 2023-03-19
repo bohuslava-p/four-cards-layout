@@ -1,1 +1,75 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+    font-family: Poppins, sans-serif;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 32px 40px 32px 32px;
+    color: #4D4F62;
+    box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+p.title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+p.caption
+{
+    font-size: 13px;
+    font-weight: 600px;
+    line-height: 23px;
+}
+
+img.icon {
+    margin-top: auto;
+    align-self: flex-end;
+    width: 64px;
+    height: 64px;
+}
+
+/* temporary top border placeholder */
+.supervisor
+{
+    border-top: 5px solid #44D3D2;
+}
+
+.team-builder
+{
+    border-top: 5px solid #EA5454;
+}
+
+.karma
+{
+    border-top: 5px solid #FCAE4A;
+}
+.calculator{
+    border-top: 5px solid #549EF2;
+}
+/* another version of top line with better radius. need to be fixed */
+/* .top-line
+{
+    display: block;
+    margin: -32px -40px -32px -32px;
+    width: 350px;
+    height: 4px;
+    background: #549EF2;
+    border-radius: 8px 8px 0 0;
+} */
+
