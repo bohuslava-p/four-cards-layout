@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     color: #4D4F62;
+    background-color: #FAFAFA;
 }
 
 main
@@ -25,6 +26,7 @@ main
     justify-content: center;
     align-items: center;
     padding: 48px;
+
 }
 
 main
@@ -36,6 +38,7 @@ main
 main h1{
     font-size: 36px;
     font-weight: 200;
+    margin-top: 48px;
 }
 
 h1 strong{
@@ -45,11 +48,14 @@ h1 strong{
 
 h3
 {
+    display: block;
+    width: 540px;
     font-size: 15px;
-    line-height: 35px;
+    line-height: 25px;
     font-weight: 200;
     max-width: 540px;
     margin-bottom: 45px;
+    margin-top: 16px;
 }
 
 .card-container
@@ -120,13 +126,3 @@ img.icon {
 .calculator{
     border-top: 5px solid #549EF2;
 }
-/* another version of top line with better radius. need to be fixed */
-/* .top-line
-{
-    display: block;
-    margin: -32px -40px -32px -32px;
-    width: 350px;
-    height: 4px;
-    background: #549EF2;
-    border-radius: 8px 8px 0 0;
-} */
